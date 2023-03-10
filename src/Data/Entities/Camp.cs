@@ -11,7 +11,7 @@ namespace CoreCodeCamp.Data
     public string Moniker { get; set; }
     public Location Location  { get; set; }
     public DateTime EventDate { get; set; } = DateTime.MinValue;
-    public int Length { get; set; } = 1;
+    public int Length { get; set; } = 1;                        
     public ICollection<Talk> Talks { get; set; }
   }
-}
+    }
